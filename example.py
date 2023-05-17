@@ -8,7 +8,7 @@ chatbot = Chatbot(token)
 
 chatbot.ask("Hello, how are you?")
 
-def add_underscores(word):
+def add_underscores(word):\
     new_word = "_"
     password = '12345'
     for char in word:
