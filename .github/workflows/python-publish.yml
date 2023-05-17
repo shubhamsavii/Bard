@@ -14,5 +14,5 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - uses: marian-code/python-lint-annotate@v3
